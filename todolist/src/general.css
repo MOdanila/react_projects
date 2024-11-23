@@ -1,0 +1,80 @@
+body{
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width:100%;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    width: 100%;
+}
+
+.add-button, .input{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    margin: 10px;
+    overflow: auto;
+    white-space: nowrap;
+    text-wrap: wrap;
+    margin-right: 10px;
+}
+
+.task:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.list{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width : 100%;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+}
+
+.remove:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.edit:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.remove, .edit{
+    margin-left: 10px;
+}
+
+.new-task-input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
